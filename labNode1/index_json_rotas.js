@@ -17,6 +17,7 @@ const usuarios = [
 
 
 if(req.url === "/"){
+    res.setHeader("Content-Type","text/plain; charset=utf-8");
     res.end("Bem vindo a essa bagaça");
 }
 
