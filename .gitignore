@@ -62,3 +62,7 @@ npm-debug.log*
 bin/
 obj/
 target/
+
+# O Dockerfile do labNode2/NodeJS precisa do manifesto
+!labNode2/NodeJS/package.json
+!labNode2/NodeJS/package-lock.json
