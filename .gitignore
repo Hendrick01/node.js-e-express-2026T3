@@ -66,3 +66,6 @@ target/
 # O Dockerfile do labNode2/NodeJS precisa do manifesto
 !labNode2/NodeJS/package.json
 !labNode2/NodeJS/package-lock.json
+
+# Variáveis de ambiente (senhas)
+.env
