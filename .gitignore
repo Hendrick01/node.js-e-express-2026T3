@@ -57,3 +57,8 @@ npm-debug.log*
 
 
 
+
+# Artefatos de build (C# e Java)
+bin/
+obj/
+target/
