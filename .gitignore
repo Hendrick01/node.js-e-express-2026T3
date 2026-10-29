@@ -8,6 +8,9 @@ package-lock.json
 **/package.json
 **/package-lock.json
 
+# Build outputs
+**/bin/
+**/obj/
 
 # Ignorar o histórico do projeto (contexto do professor)
 /history.md
@@ -30,7 +33,7 @@ npm-debug.log*
 #Aula05
 #/Aula06
 #/Aula07
-/Aula08
+#/Aula08
 /Aula09
 /Aula10
 
@@ -57,10 +60,7 @@ npm-debug.log*
 
 
 
-
-# Artefatos de build (C# e Java)
-bin/
-obj/
+# Artefatos de build do Java (bin/ e obj/ já estão no topo)
 target/
 
 # O Dockerfile do labNode2/NodeJS precisa do manifesto
